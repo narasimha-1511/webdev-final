@@ -1,9 +1,139 @@
 body{
-    background-color: white;
+    background-color:  #FFFFFF;
+    
 }
-
 header{
     display: flex;
     justify-content: space-between;
     padding: 15px 40px;
+}
+hr {
+        padding: 0;
+        margin: 0;
+    }
+
+
+.img-input{
+    display: flex;
+    gap:10px;
+}
+
+.input-comment {
+    border-radius: 8px;
+    border: none;
+    background-color: transparent; 
+    resize: none;
+    width: 347px;
+    height: 54px;
+}
+.input-comment:focus {
+    outline: none; 
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(97, 115, 142, 1);
+
+
+}
+.img1{
+    width: 117px;
+ height: 34px;
+}
+.img2{
+    width:234px;
+height: 29px;
+
+
+}
+.post-btn {
+    width: 112px;
+    height: 38px;
+    border-radius: 100px;
+    background: rgba(0, 65, 202, 1);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+}
+.left-container{
+       background: rgba(236, 248, 255, 0.4);
+        width: 768px;
+        height: 654px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.left-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 521px;
+    height: 248px;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(214, 222, 229, 1);
+    background-color: #FFFFFF;
+}
+
+.right-container{
+    background-color: #FFFFFF;
+
+padding: 24px;
+
+}
+.p-img{
+width:48px;
+height:48px ;
+
+}
+
+
+.right-container{
+
+background: rgba(255, 255, 255, 1);
+}
+.components{
+    
+display: flex;
+flex-direction: column;
+border: 1px solid rgba(214, 222, 229, 1);
+width: 464px;
+height: 194px;
+padding: 24px;
+border-radius: 8px;
+
+}
+.user-1{
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    width: 416px;
+    height: 146px;
+    gap: 12px;
+}
+.interact-icons{
+    display: flex;
+    gap: 30px;
+}
+.edit{
+    margin-top: 10px;
+
+}
+.right-input{
+    width: 364px;
+   height: 78px;
+   border-radius: 8px;
+   border: none;
+   background-color: transparent; 
+   resize: none;
+
+}
+.right-input:focus {
+    outline: none; 
 }

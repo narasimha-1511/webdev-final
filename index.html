@@ -3,17 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaler Social</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
 </head>
 <body>
-    
     <header>
-        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="">
-        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="">
+        <img class="img1" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781">
+        <img class="img2" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764">
     </header>
     <hr>
+
+    <main class="container">
+        <div class="left-container">
+
+            <div class="left-main">
+
+                <div class="main-1">
+            <h3>Post your thoughts here</h3>
+            <div class="img-input">
+                <img class="p-img" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739">
+                <!-- <input class="input-comment" type="text" placeholder="Type your thoughts here"> -->
+                <textarea placeholder="Type your thoughts" id='text-area' class="input-comment"></textarea>
+            </div>
+
+        </div>
+
+            <div class="post">
+                <p id="text_count">0/100</p>
+                <button id="post_button"  class="post-btn">Post</button>
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="right-container">
+            <h3>Your Feed</h3>
+            <div class="right-main">
+
+            </div>
+
+        </div>
+
+    </main>
+
     
-    <script src="script.js"></script>
 </body>
 </html>
